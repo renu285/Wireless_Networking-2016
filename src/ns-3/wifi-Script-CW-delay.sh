@@ -79,7 +79,7 @@ set term png
 set style func linespoints
 set output "$DELAY_IMG"
 
-plot 'plot_5.dat' u 1:2 w lp t '5 stations', 'plot_10.dat' u 1:2 w lp t '10 stations'
+plot 'plot_5.dat' u 1:2 w lp t '5 stations', 'plot_30.dat' u 1:2 w lp t '30 stations'
 
 #plot "plot_5.dat"  lp t "5 stations", \
 #     'plot_10.dat' lp t "10 stations",\

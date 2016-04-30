@@ -1,0 +1,14 @@
+    /* To set the Minimum value of contention window */ 
+        .AddAttribute ("CwMin",
+                   "Sets the minimum contention window.",
+                   UintegerValue (),
+                   MakeUintegerAccessor (&DcaTxop::SetMinCw),
+                   MakeUintegerChecker<uint32_t> ())
+                   
+    /* To set the Maximum value of contention window */ 
+
+     .AddAttribute ("CwMax",
+                   "Sets the maximum contention window.",
+                   UintegerValue (),
+                   MakeUintegerAccessor (&DcaTxop::SetMaxCw),
+                   MakeUintegerChecker<uint32_t> ())
