@@ -40,10 +40,10 @@ then
    rm $THROUGHPUT_IMG
 fi
 
-
 echo " "
 echo "Simulating...This might take a while feel free to grab a cup of Coffee :)"
 echo " "
+
 
 for node in 5 10 30  
 do

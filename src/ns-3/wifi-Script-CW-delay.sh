@@ -87,5 +87,7 @@ plot 'plot_5.dat' u 1:2 w lp t '5 stations', 'plot_30.dat' u 1:2 w lp t '30 stat
 #plot 'out.dat' using 1:2 with lines,'' using 1:3 with lines,'' using 1:4 with lines
 EOF
 echo "DONE"
+echo "Output of simulations present in "
+echo "$DELAY_IMG - variation delay with CW"
 xdg-open $DELAY_IMG 
 

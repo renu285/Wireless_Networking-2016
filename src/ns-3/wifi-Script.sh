@@ -51,9 +51,6 @@ then
    rm $DELAY_IMG 
 fi
 
-echo " "
-echo "Simulating...This might take a while feel free to grab a cup of Coffee :)"
-echo " "
 echo "      --- Initiating simulations for default backoff procedure ... "
 
 for node in  5 10 20 30 40 
